@@ -3,3 +3,15 @@
     1), rgba(0, 242, 254, 1)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+,
     Safari 7+ */ background: linear-gradient(to bottom right, rgba(79, 172, 254, 1), rgba(0,
     242, 254, 1)) }
+    .chat-popup{
+        height: 400px;
+        width: 300px;
+    }
+    @media (max-width:500px){
+
+        .chat-popup{
+            bottom: 120px;
+            right:10%;
+            width: 80vw;
+        }
+    }
