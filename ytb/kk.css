@@ -1,0 +1,46 @@
+
+
+.khung-chat{
+    width: 650px;
+    height: 594px;
+    border-width: 1px;
+    border:1px solid rgba(0, 0, 0, 0.1);
+
+}
+.hihi{
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.chat{
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-clip:border-box;
+    border-bottom-color:rgb(3, 3, 3)
+}
+.row-chat{
+    padding: 4px 24px;
+}
+
+#kkk{
+    width: 24px;
+    height: 24px;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    border-top-left-radius:50%;
+    border-top-right-radius:50%;
+    flex-basis:auto;
+    margin-right:16px;
+    font-size:13px;
+    padding: 0px;
+    flex-basis:auto;
+
+}
+
+.comment{
+    align-self:center;
+    padding: 0px 0px;
+    font-size:13px;
+    /* font-family: 'Roboto', 'Arial', 'sans-serif'; */
+
+}
